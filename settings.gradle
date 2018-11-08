@@ -1,4 +1,6 @@
 include ':flipLibrary'
-include ':demo'
-include ':demoAnimation'
-include ':demoTouch'
+if (!System.env.JITPACK) {
+    include ':demo'
+    include ':demoAnimation'
+    include ':demoTouch'
+}
