@@ -1,0 +1,4 @@
+include ':flipLibrary'
+include ':demo'
+include ':demoAnimation'
+include ':demoTouch'
